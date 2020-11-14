@@ -1,7 +1,7 @@
 Original App Design Project - README Template
 ===
 
-# APP_NAME_HERE
+# TheSocialNetwork2
 
 ## Table of Contents
 1. [Overview](#Overview)
@@ -11,16 +11,16 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-[Description of your app]
+[Lets users connect with other users in their close vicinity that are watching the same movies or playing the same video game. Could later be improved to connect people that are doing the same activity. ]
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category:** Social Networking
+- **Mobile:*This app would primarily be useful on mobile phones, since they are portable. It could also be viable on a computer.* 
+- **Story:*Collects data of user’s activities, and connects them with other users doing the same activity.*
+- **Market:*Any individual could use this app, and it would be especially useful in situations such as the one we are in right now with COVID*
+- **Habit:*This app would be used as much as the user wants to use it. It is also dependent on the common activities that the user does, and whether or not the user wants to do this activity with other people.*
+- **Scope:*The purpose of this app is to connect people with similar interests. It then has the potential to grow into something as big as Twitter or Facebook, but in a different way since these users would potentially connect face to face.*
 
 ## Product Spec
 
@@ -28,39 +28,54 @@ Original App Design Project - README Template
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* Users need to be able to login with one of google or facebook and we are able to grab personal information through google/facebook’s SDK
+* Users must have location enabled in order to proceed with the app
+* User will be able to see other users with n distance of them who are currently active
+This is going to require google maps SDK!
+* Users should be able to connect with other users
+* Users should have a list of other users they’re interacted with
+* User should be able to add current activity
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* Users can chat with various connections. 
+* Users can move through different parts of the map and are not constrained by n radius. 
+* Users can filter by movie names or other kinds of activities. 
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Login/Register
+   * Users need to be able to login with one of google or facebook and we are able to grab personal information through google/facebook’s SDK
+   * Users must have location enabled in order to proceed with the app
+
+* Detail Connected User List Screen
+   * Users should have a list of other users they’re interacted with
+
+* Add current Movie
+   * User should be able to add and see current movie
+
+* Map Display Screen
+   * User will be able to see other users with n distance of them who are currently active
+
+* Profile
+   * Users should be able to view account related information. 
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* [Map with users]
+* [Profile]
+* [List of connected users]
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* [Forced Log-in ->Account creation if no login is available]
+   * [Login/Register]
+* [Active Users Map ->Shows list of active users]
+   * [Map Display Screen]
+* [Profile ->Text screen to be modified]
+   * [Profile]
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
@@ -69,12 +84,3 @@ Original App Design Project - README Template
 ### [BONUS] Digital Wireframes & Mockups
 
 ### [BONUS] Interactive Prototype
-
-## Schema 
-[This section will be completed in Unit 9]
-### Models
-[Add table of models]
-### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
