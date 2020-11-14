@@ -11,10 +11,9 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-[Lets users connect with other users in their close vicinity that are watching the same movies or playing the same video game. Could later be improved to connect people that are doing the same activity. ]
+Lets users connect with other users in their close vicinity that are watching the same movies or playing the same video game. Could later be improved to connect people that are doing the same activity. 
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
 - **Category:** Social Networking
 - **Mobile:** This app would primarily be useful on mobile phones, since they are portable. It could also be viable on a computer.* 
 - **Story:** Collects data of user’s activities, and connects them with other users doing the same activity.*
@@ -78,9 +77,6 @@ This is going to require google maps SDK!
    * Profile
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
-
 ### [BONUS] Digital Wireframes & Mockups
 <img src="https://github.com/TheSocialNetwork2/legendary-eureka/blob/main/WireFrames_v1.PNG" height=200>
 
