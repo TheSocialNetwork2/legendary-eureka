@@ -82,6 +82,7 @@ This is going to require google maps SDK!
 <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
+<img src="https://github.com/TheSocialNetwork2/legendary-eureka/blob/main/WireFrames_v1.PNG" height=200>
 
 ### [BONUS] Interactive Prototype
 <img src="https://github.com/TheSocialNetwork2/legendary-eureka/blob/main/project_prototype_v1.gif" width=200>
