@@ -78,7 +78,7 @@ This is going to require google maps SDK!
 
 ## Wireframes
 ### [BONUS] Digital Wireframes & Mockups
-<img src="https://github.com/TheSocialNetwork2/legendary-eureka/blob/main/WireFrames_v1.PNG" height=200>
+<img src="WireFrames_v1.PNG" height=200>
 
 ### [BONUS] Interactive Prototype
-<img src="https://imgur.com/a/9bSUSmk" width=200>
+<img src="project_prototype_v1.gif" width=200>
