@@ -84,3 +84,4 @@ This is going to require google maps SDK!
 ### [BONUS] Digital Wireframes & Mockups
 
 ### [BONUS] Interactive Prototype
+<img src="https://github.com/TheSocialNetwork2/legendary-eureka/blob/main/project_prototype_v1.gif" width=200>
