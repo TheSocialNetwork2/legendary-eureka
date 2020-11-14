@@ -15,11 +15,11 @@ Lets users connect with other users in their close vicinity that are watching th
 
 ### App Evaluation
 - **Category:** Social Networking
-- **Mobile:** This app would primarily be useful on mobile phones, since they are portable. It could also be viable on a computer.* 
-- **Story:** Collects data of user’s activities, and connects them with other users doing the same activity.*
-- **Market:** Any individual could use this app, and it would be especially useful in situations such as the one we are in right now with COVID*
-- **Habit:** This app would be used as much as the user wants to use it. It is also dependent on the common activities that the user does, and whether or not the user wants to do this activity with other people.*
-- **Scope:** The purpose of this app is to connect people with similar interests. It then has the potential to grow into something as big as Twitter or Facebook, but in a different way since these users would potentially connect face to face.*
+- **Mobile:** This app would primarily be useful on mobile phones, since they are portable. It could also be viable on a computer. 
+- **Story:** Collects data of user’s activities, and connects them with other users doing the same activity.
+- **Market:** Any individual could use this app, and it would be especially useful in situations such as the one we are in right now with COVID.
+- **Habit:** This app would be used as much as the user wants to use it. It is also dependent on the common activities that the user does, and whether or not the user wants to do this activity with other people.
+- **Scope:** The purpose of this app is to connect people with similar interests. It then has the potential to grow into something as big as Twitter or Facebook, but in a different way since these users would potentially connect face to face.
 
 ## Product Spec
 
@@ -81,4 +81,4 @@ This is going to require google maps SDK!
 <img src="https://github.com/TheSocialNetwork2/legendary-eureka/blob/main/WireFrames_v1.PNG" height=200>
 
 ### [BONUS] Interactive Prototype
-<img src="https://github.com/TheSocialNetwork2/legendary-eureka/blob/main/project_prototype_v1.gif" width=200>
+<img src="https://imgur.com/a/9bSUSmk" width=200>
