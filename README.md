@@ -126,3 +126,18 @@ This is going to require google maps SDK!
 	 - (Read/GET) Query logged in user object
 	 - (Update/PUT) Update current Activity
 
+### Existing API Endpoints
+**MovieDB API**
+
+ - Base URL: [https://www.themoviedb.org/documentation/api](https://www.themoviedb.org/documentation/api)
+ 
+| HTTP Verb 	| Endpoint        	| Description                                      	|
+|-----------	|-----------------	|--------------------------------------------------	|
+| `GET`      	| /discover/movie 	| Get a list of movies based on certain sort_by id 	|
+
+**Google Maps API**
+
+ - Base URL
+	 - [https://developers.google.com/maps/documentation](https://developers.google.com/maps/documentation)
+	 - [https://developers.google.com/maps/documentation/android-sdk/location](https://developers.google.com/maps/documentation/android-sdk/location)
+	 - [https://developer.android.com/training/location](https://developer.android.com/training/location)
