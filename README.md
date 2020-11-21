@@ -31,6 +31,8 @@ Lets users connect with other users in their close vicinity that are watching th
 * Users must have location enabled in order to proceed with the app
 * User will be able to see other users with n distance of them who are currently active
 This is going to require google maps SDK!
+
+
 * Users should be able to connect with other users
 * Users should have a list of other users they’re interacted with
 * User should be able to add current activity
@@ -82,3 +84,45 @@ This is going to require google maps SDK!
 
 ### [BONUS] Interactive Prototype
 <img src="project_prototype_v1.gif" width=200>
+
+
+## Schema
+### Models
+**User**
+| Property   	| Type             	| Description                              	|
+|------------	|------------------	|------------------------------------------	|
+| objectID   	| String           	| unique id for user                       	|
+| username   	| String           	| name of user                             	|
+| image      	| File             	| profile picture of the user              	|
+| location   	| LatituteLatitute 	| current location of the user             	|
+| lastActive 	| DateTime         	| last time the user was active on the map 	|
+
+**Venture**
+| Property 	| Type   	| Description                      	|
+|----------	|--------	|----------------------------------	|
+| objectID 	| String 	| unique id of activity            	|
+| userID   	| String 	| id of user doing activty         	|
+| name     	| Stirng 	| move title                       	|
+| caption  	| String 	| Caption given by user            	|
+| comments 	| String 	| Comments associated wth activity 	|
+
+**Interaction**
+| Property     	| Type            	| Description                            	|
+|--------------	|-----------------	|----------------------------------------	|
+| objectID     	| String          	| unique id of interaction               	|
+| initiatorKey 	| Pointer to User 	| pointer to user initiating interaction 	|
+| initiateeKey 	| Pointer to User 	| pointer to user being interacted with  	|
+
+### Networking
+
+ - *Map Screen*
+	 - (Create/POST) a new interaction with another user
+	 - (Read/GET) view other users and activities limited to an area
+	 - (Optional) (Create/POST) comment on another user’s activity
+ - *User Connections*
+	 - (Read/GET) view interactions.
+	 -  (Delete) Delete an interaction
+ - *Profile*
+	 - (Read/GET) Query logged in user object
+	 - (Update/PUT) Update current Activity
+
